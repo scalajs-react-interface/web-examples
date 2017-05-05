@@ -2,12 +2,12 @@ enablePlugins(ScalaJSPlugin)
 
 name := "sri-web-template"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq(
   "scalajs-react-interface" %%% "core" % "2017.3.26-beta",
   "scalajs-react-interface" %%% "web" % "2017.3.26-beta",
-  "scalajs-react-interface" %%% "vdom" % "2017.4.18-beta",
+  "scalajs-react-interface" %%% "vdom" % "2017.4.27-beta",
   "scalajs-react-interface" %%% "scalacss" % "2017.3.26-beta",
   "scalajs-react-interface" %%% "universal" % "2017.4.9-beta"
 )

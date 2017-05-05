@@ -17,3 +17,5 @@ npm start
 //open http://localhost:8090/ in browser
 
 ```
+
+Now press `F12` to open console, type something in the `input`, and see what happens.
