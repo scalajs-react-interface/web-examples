@@ -1,0 +1,36 @@
+{
+  "name": "sri-web-template",
+  "version": "0.6.0",
+  "description": "sri  web template project",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --progress",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "babel-cli": "^7.0.0-alpha.9",
+    "babel-loader": "^7.0.0",
+    "compression-webpack-plugin": "^0.4.0",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "image-webpack-loader": "^3.3.0",
+    "lodash": "^4.17.4",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "history": "^4.6.3",
+    "material-ui": "^1.0.0-alpha.21",
+    "material-ui-icons": "^1.0.0-alpha.19",
+    "path-to-regexp": "^1.7.0",
+    "react": "next",
+    "react-dom": "next",
+    "react-tap-event-plugin": "^2.0.1",
+    "typeface-roboto": "^0.0.22"
+  }
+}
