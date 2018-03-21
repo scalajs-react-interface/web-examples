@@ -24,7 +24,6 @@ project/plugins/project/
 .DS_Store
 
 #project
-examples/js/
 
 #node
 
@@ -35,3 +34,5 @@ npm-debug.log
 #project
 
 build/
+assets/js/scalajs-output*.js
+assets/js/scalajs-output*.js.map

@@ -23,7 +23,6 @@ project/plugins/project/
 #mac
 .DS_Store
 
-
 #node
 
 node_modules/
@@ -33,3 +32,5 @@ npm-debug.log
 #project
 
 build/
+assets/js/scalajs-output*.js
+assets/js/scalajs-output*.js.map
