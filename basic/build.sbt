@@ -6,6 +6,7 @@ scalaVersion := "2.12.4"
 
 resolvers += Resolver.bintrayRepo("scalajs-css", "maven")
 resolvers += Resolver.bintrayRepo("scalajs-react-interface", "maven")
+resolvers += Resolver.bintrayRepo("scalajs-plus", "maven")
 
 libraryDependencies ++= Seq(
   "scalajs-react-interface" %%% "core" % "2018.2.2-RC",
